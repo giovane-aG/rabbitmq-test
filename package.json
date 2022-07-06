@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "send": "nodemon src/rabbitmq/index.ts"
+    "send": "nodemon src/rabbitmq/index.ts",
+    "consumer": "nodemon src/rabbitmq/consumer.ts",
+    "publisher": "nodemon src/rabbitmq/publisher.ts"
   },
   "keywords": [],
   "author": "",
